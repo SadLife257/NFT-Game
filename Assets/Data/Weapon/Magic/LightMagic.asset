@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f6ad173439cd8489b48372767c4cad, type: 3}
+  m_Name: LightMagic
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: Light Magic
+  <Description>k__BackingField: Light Magic
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 6289ff8ef7681b240829da95c2750900, type: 3}
+  <DefaultParametersList>k__BackingField: []
+  ModelPrefab: {fileID: 861163522110878035, guid: 3cab6efe607c4f549acfe8a7e7160d20, type: 3}
+  SpawnPoint: {x: 0, y: 0}
+  RotationPoint: {x: 0, y: 0}
+  projectile: {fileID: 11400000, guid: c68d3aa50bb5bd64eb5e0a5dfaf62007, type: 2}
+  trail: {fileID: 11400000, guid: 1da289ff94183bc43b174ecbb7f9dd0d, type: 2}
+  damage: {fileID: 11400000, guid: bc5260e2697997a44a2d55a87afd8675, type: 2}
+  ammo: {fileID: 11400000, guid: 9d532039f518c464c9af4494048231bf, type: 2}
+  <actionSFX>k__BackingField: {fileID: 0}

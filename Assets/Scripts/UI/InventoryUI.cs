@@ -22,12 +22,12 @@ namespace Inventory.UI
 
         public event Action<int, int> OnSwapItems;
 
-        //[SerializeField] ItemActionPanel actionPanel;
-
         public event Action<int> OnDescriptionRequested,
                     OnItemActionRequested,
                     OnStartDragging;
 
+        [SerializeField]
+        private ItemActionPanel actionPanel;
 
         private void Awake()
         {
@@ -40,17 +40,16 @@ namespace Inventory.UI
         {
             for (int i = 0; i < size; i++)
             {
-                Item prefab = Instantiate(slot, Vector3.zero, Quaternion.identity);
-                prefab.transform.SetParent(content);
+                /*Item prefab = Instantiate(slot, Vector3.zero, Quaternion.identity);
+                prefab.transform.SetParent(content);*/
+                Item prefab = Instantiate(slot, content, false);
+                //prefab.transform.SetParent(content);
                 listOfSlot.Add(prefab);
                 prefab.OnItemClicked += HandleItemSelection;
                 prefab.OnItemBeginDrag += HandleBeginDrag;
                 prefab.OnItemDroppedOn += HandleSwap;
                 prefab.OnItemEndDrag += HandleEndDrag;
                 prefab.OnRightMouseBtnClick += HandleShowItemActions;
-
-                //prefab.OnMouseHover += HandleMouseHover;
-                //prefab.OnMouseLoseFocus += HandMouseLoseFocus;
             }
         }
 
@@ -70,16 +69,6 @@ namespace Inventory.UI
             listOfSlot[itemIndex].Select();
         }
 
-        /*private void HandMouseLoseFocus(Item obj)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void HandleMouseHover(Item obj)
-        {
-            throw new NotImplementedException();
-        }*/
-
         public void UpdateData(int itemIndex,
                 Sprite itemImage, int itemQuantity)
         {
@@ -91,7 +80,12 @@ namespace Inventory.UI
 
         private void HandleShowItemActions(Item obj)
         {
-
+            int index = listOfSlot.IndexOf(obj);
+            if (index == -1)
+            {
+                return;
+            }
+            OnItemActionRequested?.Invoke(index);
         }
 
         private void HandleEndDrag(Item obj)
@@ -154,7 +148,7 @@ namespace Inventory.UI
             DeselectAllItems();
         }
 
-        /*public void AddAction(string actionName, Action performAction)
+        public void AddAction(string actionName, Action performAction)
         {
             actionPanel.AddButon(actionName, performAction);
         }
@@ -162,8 +156,8 @@ namespace Inventory.UI
         public void ShowItemAction(int itemIndex)
         {
             actionPanel.Toggle(true);
-            actionPanel.transform.position = listOfUIItems[itemIndex].transform.position;
-        }*/
+            actionPanel.transform.position = listOfSlot[itemIndex].transform.position;
+        }
 
         private void DeselectAllItems()
         {
@@ -171,12 +165,12 @@ namespace Inventory.UI
             {
                 item.Deselect();
             }
-            //actionPanel.Toggle(false);
+            actionPanel.Toggle(false);
         }
 
         public void Hide()
         {
-            //actionPanel.Toggle(false);
+            actionPanel.Toggle(false);
             gameObject.SetActive(false);
             ResetDraggedItem();
         }

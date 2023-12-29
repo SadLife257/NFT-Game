@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 4170434260
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5de9b54b0b424589623a792da80ff27a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cdca43da45ac8bffb4af98853dec9052
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5de9b54b0b424589623a792da80ff27a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69f6ad173439cd8489b48372767c4cad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 68a4249b45888bc4ba73de119664c8d0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bb46de40cb2038a48b6cf33cd8894faf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e416d3527dd4bee4e8bb5296030880b9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e524b0741805324b91d6b23cac21283, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.ParticleSystemModule
+  ClassName: UnityEngine.ParticleSystem/MinMaxCurve
+Assets:
+- Assets/Data/Weapon/Magic/BloodMagic.asset
+Dependencies: []

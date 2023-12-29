@@ -11,7 +11,6 @@ namespace Inventory.UI
         [SerializeField] Image img;
         [SerializeField] TMP_Text title;
         [SerializeField] TMP_Text description;
-
         public void Awake()
         {
             ResetDescription();
@@ -19,6 +18,8 @@ namespace Inventory.UI
 
         public void ResetDescription()
         {
+            //gameObject.SetActive(false);
+            gameObject.transform.localScale = new Vector3(0, 0, 0);
             img.gameObject.SetActive(false);
             title.text = "";
             description.text = "";
@@ -26,6 +27,8 @@ namespace Inventory.UI
 
         public void SetDescription(Sprite sprite, string itemName, string itemDescription)
         {
+            //gameObject.SetActive(true);
+            gameObject.transform.localScale = new Vector3(1, 1, 0);
             img.gameObject.SetActive(true);
             img.sprite = sprite;
             title.text = itemName;

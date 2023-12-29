@@ -11,7 +11,7 @@ public class MouseTracker : MonoBehaviour
 
     public void Awake()
     {
-        canvas = transform.root.GetComponent<Canvas>();
+        canvas = GetComponentInParent<Canvas>();
         item = GetComponentInChildren<Item>();
     }
 

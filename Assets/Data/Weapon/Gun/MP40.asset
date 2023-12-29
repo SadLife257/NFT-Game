@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f6ad173439cd8489b48372767c4cad, type: 3}
+  m_Name: MP40
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: MP 40
+  <Description>k__BackingField: MP 40
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 7c57203a9ab24144a9f556bf9e5f6511, type: 3}
+  <DefaultParametersList>k__BackingField: []
+  ModelPrefab: {fileID: 1721726824615029583, guid: 83e3703a9cb0dfd4a841867d6da30df8, type: 3}
+  SpawnPoint: {x: 1.88, y: 0}
+  RotationPoint: {x: 0, y: 0}
+  projectile: {fileID: 11400000, guid: 7b42b8675a6b34946b981268e3073e67, type: 2}
+  trail: {fileID: 11400000, guid: f03c0e400ac8f074080422d64911dbbe, type: 2}
+  damage: {fileID: 11400000, guid: 60777e493227b5b428486469fd412fdc, type: 2}
+  ammo: {fileID: 11400000, guid: 12d188a95abf44249a2629f907b32b3f, type: 2}
+  <actionSFX>k__BackingField: {fileID: 0}

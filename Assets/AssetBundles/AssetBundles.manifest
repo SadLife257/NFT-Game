@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 2403637330
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: colt45
+      Dependencies: {}
+    Info_1:
+      Name: g43
+      Dependencies: {}
+    Info_2:
+      Name: mp40
+      Dependencies: {}
+    Info_3:
+      Name: shotgun
+      Dependencies: {}
+    Info_4:
+      Name: thompson
+      Dependencies: {}
+    Info_5:
+      Name: bloodmagic
+      Dependencies: {}
+    Info_6:
+      Name: cosmicmagic
+      Dependencies: {}
+    Info_7:
+      Name: firemagic
+      Dependencies: {}
+    Info_8:
+      Name: lightmagic
+      Dependencies: {}
+    Info_9:
+      Name: watermagic
+      Dependencies: {}

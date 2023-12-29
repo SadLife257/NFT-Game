@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f6ad173439cd8489b48372767c4cad, type: 3}
+  m_Name: FireMagic
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: Fire Magic
+  <Description>k__BackingField: Fire Magic
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 195d3f70341a0e24a8da65f971974554, type: 3}
+  <DefaultParametersList>k__BackingField: []
+  ModelPrefab: {fileID: 7006124165247803763, guid: f69fc654de0269c4a8f034a95a28dcc9, type: 3}
+  SpawnPoint: {x: 0, y: 0}
+  RotationPoint: {x: 0, y: 0}
+  projectile: {fileID: 11400000, guid: cbfe826ef09df3a4c94836894baab0bb, type: 2}
+  trail: {fileID: 11400000, guid: e49f15dd6c92fc441831436281de6043, type: 2}
+  damage: {fileID: 11400000, guid: 6bf4466d34684bf4e8bf8285785e61dd, type: 2}
+  ammo: {fileID: 11400000, guid: 9d532039f518c464c9af4494048231bf, type: 2}
+  <actionSFX>k__BackingField: {fileID: 0}

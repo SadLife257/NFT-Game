@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 3622125734
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1056ab63790f551e14d04d632110adad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0412b93fef77380ccae19d2fc730cc2f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1056ab63790f551e14d04d632110adad
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69f6ad173439cd8489b48372767c4cad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 68a4249b45888bc4ba73de119664c8d0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bb46de40cb2038a48b6cf33cd8894faf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e416d3527dd4bee4e8bb5296030880b9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e524b0741805324b91d6b23cac21283, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.ParticleSystemModule
+  ClassName: UnityEngine.ParticleSystem/MinMaxCurve
+Assets:
+- Assets/Data/Weapon/Gun/MP40.asset
+Dependencies: []

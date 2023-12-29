@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f6ad173439cd8489b48372767c4cad, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: Shotgun
+  <Description>k__BackingField: Shotgun
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 7bdc9602a3d156c45963b095f13dbe80, type: 3}
+  <DefaultParametersList>k__BackingField: []
+  ModelPrefab: {fileID: 7418077160651595194, guid: 6736323e35bac5748a111e8acd3a936c, type: 3}
+  SpawnPoint: {x: 1.88, y: 0}
+  RotationPoint: {x: 0, y: 0}
+  projectile: {fileID: 11400000, guid: 6b48e43bce817d644a27dc430f901f04, type: 2}
+  trail: {fileID: 11400000, guid: ac1445c121d411d458a8dfe9076a26b3, type: 2}
+  damage: {fileID: 11400000, guid: 6062df786eea02743abcff5320c58650, type: 2}
+  ammo: {fileID: 11400000, guid: cab53fe5f55606343ba8ab43f1a04a61, type: 2}
+  <actionSFX>k__BackingField: {fileID: 0}

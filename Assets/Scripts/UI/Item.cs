@@ -20,8 +20,6 @@ namespace Inventory.UI
                 OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag,
                 OnRightMouseBtnClick;
 
-        public event Action<Item> OnMouseHover, OnMouseLoseFocus;
-
         private bool empty = true;
 
         public void Awake()
@@ -81,7 +79,7 @@ namespace Inventory.UI
 
         public void OnDrag(PointerEventData eventData)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
