@@ -20,7 +20,6 @@ public class AmmoSO : ScriptableObject
         int reloadAmount = Mathf.Min(maxReloadAmount, availableBulletsInCurrentClip);
         CurrentClipAmmo += reloadAmount;
         //CurrentAmmo -= reloadAmount;
-        Debug.LogError("Actual Loading...");
     }
 
     public bool CanReload()

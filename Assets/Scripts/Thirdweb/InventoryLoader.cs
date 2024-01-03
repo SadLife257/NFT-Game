@@ -58,8 +58,6 @@ public class InventoryLoader : MonoBehaviour
         else
         {
             AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
-            //GameObject gameObject = bundle.LoadAsset<GameObject>(name);
-            //WeaponConfigSO item = gameObject.GetComponent<WeaponConfigSO>();
             WeaponConfigSO item = bundle.LoadAsset<WeaponConfigSO> (name);
             if (item != null)
                 inventoryData.AddItem(item, quantity);
